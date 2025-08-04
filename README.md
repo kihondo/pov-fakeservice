@@ -99,9 +99,9 @@ grpcurl v1.9.3
 
 ```
 
-* Launch Terminal 5- Run the `fake-service` on another port `9090` with environment variables `MESSAGE="Response from currency microservice"` and `NAME="curreny"`, `SERVER_TYPE=grpc`
+* Launch Terminal 5- Run the `fake-service` on another port `9090` with environment variables `MESSAGE="Response from currency microservice"` and `NAME="curreny"`
 ```
-LISTEN_ADDR=0.0.0.0:9090 MESSAGE="Response from currency microservice" NAME="currency" SERVER_TYPE="grpc" ./fake-service
+LISTEN_ADDR=0.0.0.0:9090 MESSAGE="Response from currency microservice" NAME="currency" ./fake-service
 ```
 ```
 2025-08-02T23:42:10.796+0800 [INFO]  Using seed: seed=1754149330
