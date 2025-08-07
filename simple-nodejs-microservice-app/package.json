@@ -1,0 +1,29 @@
+{
+  "name": "simple-nodejs-microservice-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "pkg . --out-path dist"
+  },
+  "pkg": {
+    "targets": [
+      "node18-macos-x64",
+      "node18-linux-x64",
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
